@@ -1,0 +1,1 @@
+class {'::issue': source => 'puppet:///modules/issue/default'}

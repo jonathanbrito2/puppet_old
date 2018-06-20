@@ -1,0 +1,13 @@
+---
+:url: "https://puppetmaster.si-caju.abnote.com.br"
+:ssl_ca: "/var/lib/puppet/ssl/ca/ca_crt.pem"
+:ssl_cert: "/var/lib/puppet/ssl/certs/puppetmaster.si-caju.abnote.com.br.pem"
+:ssl_key: "/var/lib/puppet/ssl/private_keys/puppetmaster.si-caju.abnote.com.br.pem"
+:user: "puppet"
+#:password: ""
+:puppetdir: "/var/lib/puppet"
+:puppetuser: "puppet"
+:facts: true
+:timeout: 30
+:report_timeout: 30
+:threads: null

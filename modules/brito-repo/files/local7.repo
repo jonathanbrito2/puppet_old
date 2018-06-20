@@ -1,0 +1,39 @@
+# repositorio centos
+
+[base]
+name=CentOS 7.4.1708 Base x86_64
+baseurl=http://lato/repo/7
+enabled=1
+gpgcheck=0
+exclude=puppet*,zabbix*
+
+[updates]
+name=CentOS 7.4.1708 Updates x86_64
+baseurl=http://lato/repo/7/updates/x86_64
+enabled=1
+gpgcheck=0
+exclude=puppet*,zabbix*
+
+# repositorio epel, pacotes extras enterprise
+
+[epel]
+name=CentOS 7.4.1708.1611 EPEL x86_64
+baseurl=http://lato/epel/7/x86_64
+enabled=1
+gpgcheck=0
+exclude=puppet*
+
+
+# puppet-agent packages from http://yum.puppetlabs.com/
+#
+[puppet-products]
+name=CentOS 7.4.1708 PuppetLabs Packages x86_64
+baseurl=http://lato/puppet/products/7/x86_64
+enabled=1
+gpgcheck=0
+
+[puppet-dependencies]
+name=CentOS 7.4.1708 PuppetLabs Packages x86_64
+baseurl=http://lato/puppet/dependencies/7/x86_64
+enabled=1
+gpgcheck=0

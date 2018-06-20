@@ -1,0 +1,14 @@
+{
+  "LICENSE": "136e4f49dbf29942c572a3a8f6e88a77",
+  "README.md": "7fdf705bf2d60cdc02962ba28eb4284a",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "lib/facter/ads_domain.rb": "45a3fe9dfa95ad5c4862923b2574fe91",
+  "lib/facter/netbiosname.rb": "5bcd4071efa94bb3e4f9ff3039e8fee4",
+  "lib/facter/winbind_version.rb": "78859d95e6401eae4cb62647b1caadb4",
+  "manifests/init.pp": "a237ca944852a0706ef66443c612cc81",
+  "metadata.json": "f2f67bb30ba8f9b305adfb32a178b3b7",
+  "spec/classes/init_spec.rb": "9a5ea77bc44ad13e803c026a05192588",
+  "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+  "templates/smb.conf.erb": "f58c6a9805fad302df56cbe9488a91aa",
+  "tests/init.pp": "76826eff2e131fcfb3ee19cd6fb603f2"
+}

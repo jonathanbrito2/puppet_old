@@ -1,0 +1,17 @@
+Version 0.1.3
+-------------
+* Added basic smoke test
+* Default issue file (meant to be used for tests)
+* [FIX] ensure changed from 'latest' to 'file' for each file
+
+Version 0.1.2
+-------------
+* [FIX] metadata.json
+
+Version 0.1.1
+-------------
+* [FIX] metadata.json
+
+Version 0.1.0
+-------------
+* First release

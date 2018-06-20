@@ -1,0 +1,10 @@
+myhostname = mendes
+mydomain = mendes.cnhsp.local
+myorigin = $mydomain
+inet_interfaces = 127.0.0.1
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+mynetworks = 127.0.0.0/8
+mynetworks_style = host
+relay_domains = valid.com.br
+home_mailbox = Maildir/
+transport_maps =  hash:/etc/postfix/transport
